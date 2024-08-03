@@ -110,7 +110,7 @@ export default function Home() {
         <Box mb={2} mt={2}> {/* Added margin-top to move the logo down */}
           <Image src="/logo.png" alt="Logo" width={100} height={100} />
         </Box>
-        <Typography variant="h2" mb={2}>Ni'ma Navigator</Typography>
+        <Typography variant="h2" mb={2}>Ni&apos;ma Navigator</Typography> {/* Use &apos; to escape the single quote */}
         <Stack direction="row" spacing={2} alignItems="center">
           <TextField
             variant="outlined"
